@@ -1,6 +1,6 @@
 // STACK is a linear data structure, a collection of items.
 // stacks are last in first out (LIFO) and an 
-// example of a stack is a printer queue
+// example of a stack is an undo feature on word
 
 class Stack {
   constructor() {
