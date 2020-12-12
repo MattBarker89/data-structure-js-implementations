@@ -1,9 +1,9 @@
 // Linked List are sequential collections of elements called 'Nodes'.
 // These nodes can be stored anywhere in memory. and each node has a 
 // pointer to the next and or previous node in the list. There are
-// different flavours of LinkedLists such as; singley, doubley and
+// different flavours of LinkedLists such as; singly, doubly and
 // even circular. It's tradeoffs are sacrificing lookup speed over
-// inseertion and deletion speed.
+// insertion and deletion speed.
 
 // Node class definition that make up the elements
 // used in a linkedList.
@@ -21,7 +21,7 @@ class LinkedList {
   constructor() {
     this.head = this.tail = null;
   }
-  // Apprend an element to the end of the list.
+  // Append an element to the end of the list.
   append(value) {
     if (!this.tail ) {
       this.head = this.tail = new Node(value);

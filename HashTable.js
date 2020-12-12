@@ -1,7 +1,7 @@
 // HashTables are data structures that use hashing to implement 
-// an assoicative array, or mappings of 'key:value" pairs.
-// Internaly the backbone of a hashtable is a regular array.
-// Their primary benifit is they are extreamly fast at accessing 
+// an associative array, or mappings of 'key:value" pairs.
+// Internally the backbone of a hashtable is a regular array.
+// Their primary benefit is they are extremely fast at accessing 
 // inserting or deleting values.
 
 // The hash function takes in the key as a string, and the size of
