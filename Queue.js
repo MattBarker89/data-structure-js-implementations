@@ -25,5 +25,4 @@ class Queue {
     this.head++;
     return removed;
   }
-
 }
